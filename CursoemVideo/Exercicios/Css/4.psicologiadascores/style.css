@@ -1,0 +1,67 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(233, 214, 187);
+}
+.divi1{
+    background-color: rgb(138, 187, 243);
+    text-align: left;
+    max-width: 300px;
+    border-radius: 2px;
+    color: rgb(18, 79, 170);
+    font-size: 25px;
+}
+.titprincipal{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(119, 142, 243);
+}
+
+    
+
+.divi2{
+    background-color: rgb(212, 113, 113);
+    text-align: left;
+    max-width: 300px;
+    border-radius: 2px;
+    color: rgb(206, 20, 20);
+    font-size: 25px;
+}
+.divi3{
+    
+    position: absolute;
+    right: 0;
+    top: 125px;
+    background-color: rgb(135, 101, 199);
+    max-width: 300px;
+    border-radius: 2px;
+    color: rgb(134, 53, 201);
+    font-size: 25px;
+}
+.divi4{
+    position: absolute;
+    right: 0;
+    top: 525px;
+    background-color: rgb(247, 114, 240);
+    max-width: 300px;
+    border-radius: 2px;
+    color: rgb(255, 4, 222);
+    font-size: 25px;
+}
+.divi5{
+    background-color: rgb(121, 241, 121);
+    text-align: left;
+    max-width: 300px;
+    border-radius: 2px;
+    color: rgb(0, 151, 13);
+    font-size: 25px;
+}
+.divi6{
+    position: absolute;
+    right: 0;
+    top: 920px;
+    background-color: rgb(214, 133, 39);
+    max-width: 300px;
+    border-radius: 2px;
+    color: rgb(170, 100, 7);
+    font-size: 25px;
+}

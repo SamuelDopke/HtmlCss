@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body{
+    background-color: #29afeccb;
+}
+p{
+    
+    font-size: 20px;
+}
+h1{
+    font-size: 40px;
+}
+h2 
+{
+    font-size: 30px;
+}
+.div1{
+
+    text-align: left;
+    max-width: 600px;
+    background-color: #140ec477;
+    border-radius: 3px;
+    box-shadow: 1px 2px rgb(43, 43, 165);
+}
+.div2{
+    background-color: #140ec477;;
+    max-width: 600px;
+    border-radius: 3px;
+    box-shadow: 1px 2px rgb(43, 43, 165);
+}
+.div3{
+    background-color: #140ec477;;
+    max-width: 600px;
+    border-radius: 3px;
+    box-shadow: 1px 2px rgb(43, 43, 165);
+}

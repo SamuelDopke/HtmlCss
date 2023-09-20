@@ -1,0 +1,112 @@
+.divlinks{
+    display: block;
+    text-align: right;
+    
+    
+    
+}
+.h1links{
+    margin: 0px 90px 0px 0px
+}
+.links{
+    
+    display: inline;
+    text-align: auto;
+}
+body{
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header{
+    text-align: center;
+    background-color: antiquewhite;
+}
+nav{
+    text-align: right;
+    background-color: darkgray;
+    padding: 10px;
+    margin: 8px;
+    outline: 2px dashed rgb(112, 111, 111);
+    width: 40px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+    /*box-shadow: 1px 1px 1px black;
+    Parâmetros em ordem:
+    Deslocamento horizontal, deslocamento vertical, cor.
+    A sombra deve ser uma cor transparente.
+    */
+}
+nav > a{
+    text-decoration: none;
+    color: azure;
+    margin: 0px;}
+    
+  
+nav > a:hover{
+    text-decoration: underline;
+    color: aqua;
+    
+}
+main{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    align-self: center;
+    border-radius: 10px 0px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.315);
+}
+article{
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 5px;
+}
+article > aside{
+    background-color: rgb(148, 148, 148);
+}
+h2{
+    text-align: center;
+}
+footer{
+    
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+}
+footer > p{
+    margin: 0;
+}
+div#bola{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

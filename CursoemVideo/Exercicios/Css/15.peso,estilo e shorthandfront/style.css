@@ -1,0 +1,45 @@
+
+
+.weight{
+    
+    width: 600px;
+    font-weight: bolder; 
+    
+    /*
+    Font weight é o peso da fonte, ou seja, sua grossura; lighter, normal, bold, bolder. Estes são aceitos pela maioria das fontes*/
+    /*
+    Podemos usar também números começando de 100, sendo 100 a lighter para mexer com o sistema font-weight.
+    */
+}
+
+
+.style{
+    width: 600px;
+    font-style: italic;
+    /*
+    Muda o estilo da fonte podendo ser colocado para váriados estilos
+    
+    */
+}
+.sublinhar{
+    text-decoration: underline;
+    /*
+    Para sublinhar usamos o text-decoration underline
+    
+    */
+}
+.shorthand{
+    font: italic bolder 30px 'Courier New', Courier, monospace;
+    /*
+    Shorthand ou maozinha é uma forma de condensar todas as informações de estilo da fonte em uma unica linha, então começamos com o font-style, depois font-weight, font-size e por fim font-family
+    */
+}
+
+.shorthand2{
+    font: 20px 'Courier New';
+    /*
+    Podemos simplesmente não modificar alguns elementos por exemplo nesse código acima pulei o font-family e o font-weight. Contanto que siga a ordem certa e não a troque é possível modificar do jeito que quiser.
+    
+    
+    */
+}

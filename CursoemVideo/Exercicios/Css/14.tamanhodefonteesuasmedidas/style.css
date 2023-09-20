@@ -1,0 +1,26 @@
+/*Medidas Absolutas:
+Cm, mm, in(polegada), px. 
+
+Não recomendado em telas: pt, pc.
+
+
+
+Medidas Relativas:
+em altura da letra M, ex altura da letra X, rem, vw, %
+
+Medidas Recomendadas:
+px e em.
+A medida EM é a mais recomendada por causa da compatibilidade com maiores telas 
+*/
+p{
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+

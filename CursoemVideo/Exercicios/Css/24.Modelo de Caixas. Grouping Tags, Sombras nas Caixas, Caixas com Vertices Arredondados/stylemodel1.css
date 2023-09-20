@@ -1,0 +1,80 @@
+h1{
+    background-color: lightgray;
+
+    display: inline;/*Mudando de box-level para inline-level*/
+
+    height: 300px;
+    width: 300px;
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkgray;
+/*
+Podemos substituir as 3 linhas de código acima por apenas:
+    
+    border: 10px solid darkgrey;
+    Sempre seguindo a ordem width > style > color (largura, estilo e cor)
+
+*/
+
+/*Normalmente usamos sempre a ordem: top > right > bottom > left*/
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+/*
+
+Podemos substituir todas essas linhas de padding e margin seguindo a lógica do top > right > bottom > left
+    padding: 10px 10px 10px 10px
+    margin: 10px 10px 10px 10px
+E se eu quiser como no exemplo o top, right, bottom, left iguais posso simplificar para apenas
+    padding: 10px
+    margin: 10px
+    Será definido como todos os lados 10px 
+E caso coloque os dois valores serão igualados o top e bottom, e o right e left
+    padding: 20px 10px = padding-top 20px padding-right 10px padding-bottom 20px padding-left 10px
+*/
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: rgb(41, 133, 133);
+
+/*
+No outline é a mesma situação que o border.
+    outline: 5px dashed red
+*/
+    
+    margin: auto;/*margin auto centraliza no meio o elemento quando em caixa, ou seja box-level, para textos serve o text-align*/
+}
+a{
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    display: inline-block;/*Faz com que possua caracteristicas do inline e do box-level*/
+}
+
+
+
+
+.divlinks{
+    display: block;
+    text-align: right;
+    
+    
+    
+}
+.h1links{
+    margin: 0px 90px 0px 0px
+}
+.links{
+    
+    display: inline;
+    text-align: auto;
+    
+
+}

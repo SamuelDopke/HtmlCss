@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/pequena.png" type="image/png"><!--Este código aqui diz, quando o maxima da tela for 750px carregara a imagem pequena, como esta é a menor é necessario que ela seja sempre a primeira-->
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png"><!--Este código diz que se a tela for ate 1050px carregara a imagem media-->
+        <img src="imagens/grande.png" alt="grande"><!--Este apenas coloca a imagem grande, mas a sucessão desses 3 códigos faz com que com base no tamanho da tela as imagens se ajustem numa troca dinâmica-->
+    </picture>
+    
+    <pre>
+        <h2>Como foi feita a dinâmica das imagens:</h2>
+        <code>
+&lt;picture&gt;
+    &lt;source media="(max-width: max largura)" srcset="localda/imagem.png" type="imagem/pngOUjpg"&gt; // Comece sempre pela mais pequena para não haver erros
+    &lt;source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png"&gt; // Exemplo correto
+    &lt;img src="imagens/grande.png" alt="algosobreaimagem"&gt;
+&lt;/picture&gt;
+        </code>
+    </pre>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/eriksatie-gymnopedie.mp3" controls autoplay></audio><!--Os parametros "constrols" e "autoplay" tem funções, o "controls" habilita controle por exemplo de áudio. O "autoplay" toca automaticamente ao entrar no site-->
+
+    <audio preload="none" controls autoplay loop><!--Está é outra forma de carregar um audio, fazendo o source separado. O parametro "loop" serve para repetir o áudio quando ele chegar ao fim e os outros dois estão citados acima.-->
+        <source src="midia/icanthandlechange-instrumental.mp3" type="audio/mpeg" >
+
+
+
+
+    </audio>
+
+
+
+
+</body>
+</html>

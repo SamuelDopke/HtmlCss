@@ -1,0 +1,17 @@
+
+body{
+    background-color: rgb(29, 27, 27);
+
+}
+h1#titulo1{
+    text-align: center;
+    color: rgb(233, 233, 233);
+    font-size: 50px;
+
+}
+div#divi1{
+    text-align: center;
+}
+div#divi2{
+    text-align: center;
+}

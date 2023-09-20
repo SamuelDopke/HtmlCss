@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-color:#202C33;
+    color: white;
+}
+h1{
+    font-size: 3em;
+    color: #005C4B;
+    text-align: center;
+}
+h2{
+    font-size: 2em;
+    color: #005C4B;
+}
+div{
+    width: 400px;
+}

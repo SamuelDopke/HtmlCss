@@ -1,0 +1,15 @@
+/*CSS Web Safe Combinations. Pesquise.
+Combinações de fontes seguras, isso é que se parecem.
+
+*/
+
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;/*Isso é se a Arial não
+    Funcionar então usamos a Helvetica, caso ela não rode no dispositivo também, usamos alguma aleatoria do tipo Sans-Serif*/
+}
+h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+}

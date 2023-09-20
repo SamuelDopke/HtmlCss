@@ -1,0 +1,9 @@
+*{/*O "*" é usado como um seletor de todas as coisas, isso é uma configuração global para o arquivo css, todos os seletores serão afetados.*/
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(to right, white, blue);/*background-imagem: linear gradient: Para fazer um gradiente linear, isso é duas cores em transição nesse caso to right (para direita)*/
+    background-image: linear-gradient(to top, white, blue);/*to top(para cima)*/ 
+    background-image: linear-gradient(to bottom, #979BE1, #5158DB, #22255C);
+    background-attachment: fixed; /*Ajusta o degrade para fixo, concerta o bug da rolagem que tira o degrade.*/
+}

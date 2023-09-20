@@ -1,0 +1,50 @@
+@charset "UTF-8";
+*{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #F1D8C9, #F2C3A7);
+}
+p{
+    text-align: justify;
+}
+main{
+    background-color: white; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #b9917a9f; /*O primeiro parametro é a sombra para o lado, o segundo para baixo, terceiro o quanto ela fica espalhada e o quarto a cor*/
+    width: 600px;
+    padding: 10px;
+    margin: auto;/*Centraliza sempre no meio da tela independente do tamanho da tela do dispositivo*/
+}
+h1{
+    color: #F39209;
+    text-align: center;
+    text-shadow: 1px 1px 2px #834f06c2; /*Mesma coisa que o box shadow, primeiro parametro para o lado, segundo para baixo, terceiro espalhamento e quarto a cor*/
+}
+h2{
+    color: #125189;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+div#principal:hover{
+    color: red;
+}
+div > p{/*Isso significa, um paragrafo que está dentro de uma div, ou é filho de uma div*/
+    display: none; /*Para esconder um elemento*/
+}
+div#principal:hover > p{/*Essa função permite que o paragrafo volte a ser mostrado, com o display block fazendo isso e o :hover fazendo com que seja ativada com a função de passar o mouser em cima.*/
+    display: block;
+    color: white;
+    background-color: red;
+    width: 200px;
+}
+a{
+    color: lightblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: yellowgreen;
+}
+/*Pseudo-Elementos em CSS é representado por: '::'*/
+.especial::before{
+    content: '⇒';
+    color: red;
+}
+.especial::after{
+    content: '⇐';
+    text-decoration: none;
+    font-weight: normal;
+    color: red;
+}
+.especial{
+    background-color: lightcoral;
+    color: white;
+}
